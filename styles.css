@@ -1,0 +1,162 @@
+
+:root {
+    --sideBarWidth: 180px;
+    --color1: rgb(0, 88, 12);
+    --color2: rgb(3, 145, 10);
+    --color3: rgb(0, 48, 0);
+}
+
+.mainContent a {
+    color: rgb(1, 36, 151);
+
+}
+
+body {
+    background: var(--color3);
+    display: flex;
+    color:rgb(0, 0, 0);
+    width: 1240px;
+    flex-direction: row;
+    margin: 20px auto;
+    font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+body .mainContent {
+    
+    flex: 1;
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+body .sidebar {
+    background: var(--color2);
+    color: white;
+    width: var(--sideBarWidth);
+    margin-top: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.sidebar .menu {
+    margin: 10px;
+    padding: 10px;
+    background: var(--color1);
+    border-radius: 10px;
+    
+}
+.sidebar .menu div{
+    text-align: center;
+}
+.sidebar .menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+.sidebar .menu ul a {
+    text-decoration: none;
+    color: white;
+}
+.sidebar .menu ul a:hover {
+    font-style: italic;
+}
+
+header {
+    background-color: var(--color1);
+    color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    display: flex; 
+    flex-direction: row;
+    text-align:center;
+    height: 70px;
+}
+
+header h1 {
+    margin: auto;
+}
+
+
+.currentPage {
+    background: var(--color2);
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    
+    
+}
+
+
+section .content{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    flex: 1;
+    min-height: 400px;
+}
+
+#boids {
+    border: 1px solid var(--color3);
+    position: relative;
+    width: 640px;
+    height: 380px;
+    margin: 20px auto;
+}
+
+#BoolNet {
+    border: 1px solid var(--color3);
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#YPModel {
+    border: 1px solid var(--color3);
+    position: relative;
+    width: 840px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+#astroids {
+    
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 20px auto;
+}
+
+#spelltrain {
+    
+    position: relative;
+    width: 640px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#actbmodel {
+    /* border: 3px solid green; */
+    position: relative;
+    width: 350px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+footer {
+    background-color:  var(--color2);
+    color:white;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+    min-height: 15px;
+}
+
+
+
+

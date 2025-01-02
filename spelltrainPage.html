@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adam Aldridge</title>
+        <link rel="stylesheet" href="styles.css">  
+    
+        <script src="Libraries/p5.js"></script>
+        <script src="Libraries/p5.sound.js"></script>
+        <script src="Libraries/p5.speech.js"></script>
+        <script src="SpellTrain/spelltrainSketch.js"></script>
+        <script src="SpellTrain/frontend.js"></script>
+        <script src="SpellTrain/backend.js"></script>
+        <script src="SpellTrain/word.js"></script>
+        
+        
+    </head>
+
+    <body>
+        <section class="sidebar">
+            <div class="menu">
+                <div>Menu</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="researchPage.html">Research Interests</a></li>
+                    <li><a href="sideProjectsPage.html">Side Projects</a></li>
+                    <li><a href="cvPage.html">Short CV</a></li>
+                </ul>
+                <div>---</div>
+                <ul>
+                    <li><a href="actbmodelPage.html">ACTB Model</a></li>
+                    <li><a href="boidsPage.html">Boids</a></li>
+                    <li><a href="asteroidsPage.html">Asteroids</a></li>
+                    <li><a href="spelltrainPage.html">Spell Train</a></li>
+                    <li><a href="p2qPage.html">Picton to Q'stown</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="mainContent">
+            <header>
+                <h1>Side Projects</h1>
+            </header>
+            <div class="currentPage">
+                Spell Train
+            </div>
+            <section>                
+                <div class="content">
+                    <h1>Learning to Spell</h1>
+                    Spelling has never been one of my strong points, so to remedy that somewhat I came up with the concept of a programme that can teach you. 
+                    <div id="spelltrain"></div>
+                    The idea is simple: take a list of words that are difficult to spell and feed them to the user in batches. Each "level" of 5 words can only be passed when every one of them has been spelt correctly a sufficient number of times. If a word is spelt right on the first try, it is passed immediately; whereas if not, the word is kept in the "bag" and must be spelt a few times in a row to be moved on from (the times required to pass is based on the number of incorrect spellings with a cap of 3). But where does the list of troublesome words come from? I came up with the idea of writing my masters thesis in a non-spellchecked text editor, then using a separate editor with spellcheck enabled, harvesting all of the red-underlined words as candidates for improvement. You, as I am, will likely be amused at some of the painfully basic words that I have managed to miss spell! The next step, I think, will be to create some mechanism that will sift through the ever-growing list of words to separate the actually misconceptualised (that was one) spellings from the chaff of words that were just reckless typos.
+                    <h4>Music</h4>
+                    <p>If you like music, here are some options:</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=-gDinVAmtA0&ab_channel=WondersOfClassicalMusic" target="_blank">Chopin - Nocturnes</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=0Bvm9yG4cvs&ab_channel=LudovicoEinaudi" target="_blank">Ludovico Einaudi - Una Mattina</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=kg9gjQnSCAw&ab_channel=MindfulMusic" target="_blank">Tyco - Epoch</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Oj9A_z0pA1I&ab_channel=Fluidified" target="_blank">Liquid DnB mix</a></li>
+                    </ul>
+                    <p>(Youtube's volume may need adjusting down.)</p>
+                </div>
+            </section>
+            <footer>Adam Aldridge</footer>
+        </section>
+        
+
+        
+    </body>
+    
+</html>

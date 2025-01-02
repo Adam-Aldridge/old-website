@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adam Aldridge</title>
+        <link rel="stylesheet" href="styles.css">  
+    
+        <script src="Libraries/p5.js"></script>
+        <script src="Asteroids/asteroidsSketch.js"></script>
+        <script src="Asteroids/asteroid.js"></script>
+        <script src="Asteroids/bullet.js"></script>
+        <script src="Asteroids/spaceship.js"></script>
+    </head>
+
+    <body>
+        <section class="sidebar">
+            <div class="menu">
+                <div>Menu</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="researchPage.html">Research Interests</a></li>
+                    <li><a href="sideProjectsPage.html">Side Projects</a></li>
+                    <li><a href="cvPage.html">Short CV</a></li>
+                </ul>
+                <div>---</div>
+                <ul>
+                    <li><a href="actbmodelPage.html">ACTB Model</a></li>
+                    <li><a href="boidsPage.html">Boids</a></li>
+                    <li><a href="asteroidsPage.html">Asteroids</a></li>
+                    <li><a href="spelltrainPage.html">Spell Train</a></li>
+                    <li><a href="p2qPage.html">Picton to Q'stown</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="mainContent">
+            <header>
+                <h1>Side Projects</h1>
+            </header>
+            <div class="currentPage">
+                Asteroids Game
+            </div>
+            <section>                
+                <div class="content">
+                    <h1>Asteroids</h1>
+                    <p>is a space-themed multidirectional shooter arcade game designed by Lyle Rains, Ed Logg, and Dominic Walsh and released in November 1979 by Atari, Inc.</p>
+                    This is a remake of the game that I wrote in Javascript using the p5.js framework. It uses something called Perlin noise to generate randomly shaped polygons that 
+                    construct the flying rocks. (See below for the controls.)
+
+                    <div id="astroids"></div>
+                    <ul>
+                        <li>'d' and 'a' to rotate clockwise and counter-clockwise.</li>
+                        <li>'w' to thrust.</li>
+                        <li>SPACEBAR to shoot.</li>
+                        <li>'r' to reset</li>
+                        <li>'b' to toggle debug lines.</li>
+                    </ul>
+                </div>
+            </section>
+            <footer>Adam Aldridge</footer>
+        </section>
+        
+
+        
+    </body>
+    
+</html>

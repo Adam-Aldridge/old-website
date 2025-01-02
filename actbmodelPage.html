@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adam Aldridge</title>
+        <link rel="stylesheet" href="styles.css">  
+    
+        <script src="Libraries/p5.js"></script>
+        <script src="ACTB_Model/ACTB_modelSketch.js"></script>
+        <script src="ACTB_Model/Agent.js"></script>
+        <script src="ACTB_Model/Interactions.js"></script> 
+        
+    </head>
+
+    <body>
+        <section class="sidebar">
+            <div class="menu">
+                <div>Menu</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="researchPage.html">Research Interests</a></li>
+                    <li><a href="sideProjectsPage.html">Side Projects</a></li>
+                    <li><a href="cvPage.html">Short CV</a></li>
+                </ul>
+                <div>---</div>
+                <ul>
+                    <li><a href="actbmodelPage.html">ACTB Model</a></li>
+                    <li><a href="boidsPage.html">Boids</a></li>
+                    <li><a href="asteroidsPage.html">Asteroids</a></li>
+                    <li><a href="spelltrainPage.html">Spell Train</a></li>
+                    <li><a href="p2qPage.html">Picton to Q'stown</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="mainContent">
+            <header>
+                <h1>Side Projects</h1>
+            </header>
+            <div class="currentPage">
+                ACTB Model
+            </div>
+            <section>                
+                <div class="content">
+                    <h1>Argument Communication Theory of Bipolartsation Model (ACTB Model)</h1>
+                    <p>The ACTB Model was developed by Michael Mas and was published in 2013 (see reference below).
+                        It is an agent-based mathematical model that is capable of grappling with a perplexing property 
+                        of society: Individuals, left to their own devices, can become dramatically polarised in their opinions 
+                        in regard to particular matters, notably in areas of politics, but also in other domains such as religion.</p>
+                    
+                    <div id="actbmodel"></div>
+                    
+<p>The work builds on Persuasive Argument Theory. PAT assumes that individuals base their opinions on
+a set of binary pro or con arguments and that their position on the matter at hand is simply an average of
+the collection of arguments they deem relevant. When a discussion occurs, an individual is exposed to the arguments 
+that his partner values. In a group where members already have, say, a certain political sway, it is more likely 
+that discussions within this group will surface arguments inline with that existing bias. As a result, such 
+gatherings have the potential to draw members of the group further in the direction of their pre-existing prevailing 
+opinion.</p>
+
+<p>If we add to the mix a phenomenon called homophily - the natural tendency for people to prefer to spend
+time and interact with those that are similar to themselves - we have a recipe for opinion polarisation
+in the making. If, when people who interact in groups where members are already similar in their political
+opinion, mostly arguments to reinforce that prevailing position are mouthed, thus aggregating to a collective
+shift towards a more extreme position, and, groups are more likely to congregate in which members are already
+like-minded due to a perfectly human condition called homophily, then,  before they know it, groups on both 
+sides of the fence can find themselves wandering progressively away from it, with an evermore alien group on 
+the other side.</p>
+
+<p>Of course, there are many other factors at play in such a situation, but interestingly, this Argument 
+Communication Theory of Bipolarisation presents a clear rationale for how groups can become severely separated 
+in their positions without even a hint of what has been called negative influence. This is where an individual 
+will shift his own opinion away from another's whom he evaluates negatively, potentially to avoid an 
+uncomfortable state of cognitive dissonance.</p>
+
+
+<p>Written above is only a birds-eye view description of the ACTB model's core essence. For the sake 
+of approachability, many of the intricacies of its complete mathematical formulation have been left out. 
+These include, for example, the equation used to calculate the probability that an interaction partner agent 
+will be chosen from the whole population at a given simulation event,  which has included in it a parameter, h, 
+that can be used to dial the level of homophily. If you are interested in the full mathematical simulation model 
+description, please refer to the original paper by Michael Mas (see reference below).</p>
+
+<p>The live simulation seen above is a simple implementation of the ACTB simulation model. A discrete opinion 
+scale from -1 on the left to 1 on the right is populated by a number of interaction agents. A colour state from 
+blue to red represents the concentration of less or more agents respectively at that particular position. You
+will find most of the time that the population ends up entirely in the two most extreme positions depicted by
+red bars at either side of the canvas.</p>
+
+<h3>Reference</h3> 
+<ul>
+    <li>Michael Mas 2013</li>
+    <li>Differentiation without Distancing. Explaining BiPolarization of Opinions without Negative Influence    </li>
+    <li>Link: <a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0074516&type=printable" target="_blank">https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0074516&type=printable</a></li>
+</ul>
+
+
+
+
+
+                
+                </div>
+            </section>
+            <footer>Adam Aldridge</footer>
+        </section>
+
+        
+    </body>
+    
+</html>
